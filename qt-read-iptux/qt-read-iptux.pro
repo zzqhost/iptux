@@ -3,6 +3,8 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
+DEFINES += __IP_TUX__
+
 SOURCES += \
 /home/zzq/github/iptux/iptux0.5.3/src/DialogGroup.cpp \
 /home/zzq/github/iptux/iptux0.5.3/src/LogSystem.cpp \
